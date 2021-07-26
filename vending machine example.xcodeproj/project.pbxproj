@@ -13,6 +13,9 @@
 		8FC1536626AE654A00BFF689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1536426AE654A00BFF689 /* Main.storyboard */; };
 		8FC1536826AE655100BFF689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1536726AE655100BFF689 /* Assets.xcassets */; };
 		8FC1536B26AE655100BFF689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1536926AE655100BFF689 /* LaunchScreen.storyboard */; };
+		8FC1537326AE6CCF00BFF689 /* VendingItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1537226AE6CCF00BFF689 /* VendingItemCell.swift */; };
+		8FC1537526AE6E7400BFF689 /* VendingInventory.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1537426AE6E7400BFF689 /* VendingInventory.plist */; };
+		8FC1537726AE86E200BFF689 /* VendingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1537626AE86E200BFF689 /* VendingMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8FC1536726AE655100BFF689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FC1536A26AE655100BFF689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FC1536C26AE655100BFF689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC1537226AE6CCF00BFF689 /* VendingItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingItemCell.swift; sourceTree = "<group>"; };
+		8FC1537426AE6E7400BFF689 /* VendingInventory.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VendingInventory.plist; sourceTree = "<group>"; };
+		8FC1537626AE86E200BFF689 /* VendingMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				8FC1536726AE655100BFF689 /* Assets.xcassets */,
 				8FC1536926AE655100BFF689 /* LaunchScreen.storyboard */,
 				8FC1536C26AE655100BFF689 /* Info.plist */,
+				8FC1537426AE6E7400BFF689 /* VendingInventory.plist */,
+				8FC1537226AE6CCF00BFF689 /* VendingItemCell.swift */,
+				8FC1537626AE86E200BFF689 /* VendingMachine.swift */,
 			);
 			path = "vending machine example";
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC1536B26AE655100BFF689 /* LaunchScreen.storyboard in Resources */,
+				8FC1537526AE6E7400BFF689 /* VendingInventory.plist in Resources */,
 				8FC1536826AE655100BFF689 /* Assets.xcassets in Resources */,
 				8FC1536626AE654A00BFF689 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC1537726AE86E200BFF689 /* VendingMachine.swift in Sources */,
 				8FC1536326AE654A00BFF689 /* ViewController.swift in Sources */,
 				8FC1535F26AE654A00BFF689 /* AppDelegate.swift in Sources */,
+				8FC1537326AE6CCF00BFF689 /* VendingItemCell.swift in Sources */,
 				8FC1536126AE654A00BFF689 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
